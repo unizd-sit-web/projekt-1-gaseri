@@ -29,6 +29,7 @@ ul {
 	text-transform: uppercase;
 	text-align: center;
 	display: block;
+	text-decoration: none;
 }
 
 .main-nav a {
@@ -84,13 +85,8 @@ ul {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 20px;
-    border-right: rgba(255, 255, 255, 0.25);
-    border-left: rgba(255, 255, 255, 0.25);
-    border-style: solid;
+    
   }
-
-  
-  
 
   
   
