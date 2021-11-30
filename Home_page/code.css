@@ -1,15 +1,9 @@
 .bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
 .logo {
 	margin-top: 20;
@@ -102,20 +96,19 @@ ul {
 	border-radius: 5000px;
 	text-transform: uppercase;
 	margin-bottom: 0;
-	font-family: "Comic Sans MS";
     font-weight: bold;
     font-size: 25px;
 	color: white;
 	text-decoration: none;
 	border-style:solid;
-	border-color:grey;
-	border-width:5px;
+	border-color:white;
+	border-width:2px;
 	padding: 10px;
-	background-color:black;
+	background-color:rgb(28, 22, 83);
   }
   
   .marketing-site-content-section .marketing-site-content-section-img {
-	border: black;
+	border:black;
 	border-style: inset;
 	border-width: 5px;
 	-webkit-align-self: center;
@@ -147,7 +140,7 @@ ul {
 	-webkit-align-self: stretch;
 		-ms-flex-item-align: stretch;
 			align-self: stretch;
-	background: rgb(9, 9, 44);
+	background: rgba(0, 0, 0, 0.9);
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
@@ -179,12 +172,218 @@ ul {
 	font-size: 24px;
 	color: white;
   }
-  
 
-  
-  
-  
-  
+  .footer-distributed{
+	background:rgba(0, 0, 0, 0.9);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px;
 
-  
-  
+	text-align: left;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: grey;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+/* The company logo */
+
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  black;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+	margin-left: 60px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  black;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+
+/* The contact form */
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:white;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color: white;
+
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color: grey;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  black;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #000000;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	background-color:  rgb(37, 17, 94);
+	color: #ffffff;
+	border: solid;
+	border-color: white;
+	border-width: 2px;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 250px;
+	}
+
+	.footer-distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer-distributed form{
+		margin-top: 30px;
+	}
+
+	.footer-distributed form{
+		display: block;
+	}
+
+	.footer-distributed form button{
+		float: none;
+	}
+}
+
+
+
+
+
