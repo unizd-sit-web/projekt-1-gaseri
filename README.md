@@ -6,4 +6,4 @@ Za projektni zadatak naš tim će napraviti web stranicu izmišljenog noćnog kl
 
 ## 1. dio projekta
 
-Napravit ćemo početnu stranicu te contact me formu. Kasnije ćemo u projekt dodavati složenije funkcije poput interaktivne rezervacije stolova i online kupnju ulaznica. 
+Napravit ćemo početnu stranicu te contact me formu. Također, dodat ćemo i stranicu s galerijom slika. Kasnije ćemo u projekt dodavati složenije funkcije poput interaktivne rezervacije stolova i online kupnju ulaznica. 
