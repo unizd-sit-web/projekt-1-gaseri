@@ -10,7 +10,6 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    font-size: 1.45em;
 }
 
 .main-nav {
@@ -53,6 +52,8 @@ ul{
 }
 
 
+
+
 @media (min-width: 769px) {
     .header,
     .main-nav {
@@ -69,11 +70,17 @@ ul{
 
 @media (min-width: 1025px) {
     .header {
+        height: 130px;
         margin-left: 7px;
         position: fixed;
         width: 99%;
         flex-direction: row;
         justify-content: space-between;
+
+    }
+
+    .header.shrink{
+        height: 80px;
     }
 
 }

@@ -129,6 +129,12 @@ source: foundation framework -->
         </form>
     </div>
 </footer>
+<script type="text/javascript">
+    window.addEventListener("scroll",function(){
+        var header=document.querySelector("header");
+        header.classList.toggle("shrink",window.scrollY>0);
+})
+</script>
 
 </body>
 
