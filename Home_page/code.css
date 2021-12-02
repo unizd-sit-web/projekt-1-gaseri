@@ -34,6 +34,9 @@
 .main-nav a:hover {
     color: rgb(172, 172, 172);
 }
+ul{
+    list-style-type: none;
+}
 
 
 .header {
@@ -106,6 +109,10 @@
     border-width: 2px;
     padding: 10px;
     background-color: rgb(28, 22, 83);
+}
+
+.button.round:hover{
+    background-color: black;
 }
 
 .marketing-site-content-section .marketing-site-content-section-img {
@@ -201,20 +208,18 @@ section {
 }
 
 
-/* Footer left */
+
 
 .footer-distributed .footer-left {
     float: left;
 }
 
-/* The company logo */
 
 
 .footer-distributed h3 span {
     color: #5383d3;
 }
 
-/* Footer links */
 
 .footer-distributed .footer-links {
     color: #ffffff;
@@ -334,6 +339,10 @@ section {
     float: right;
 }
 
+.footer-distributed form button:hover{
+    background-color: black;
+}
+
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 1000px) {
@@ -385,6 +394,21 @@ section {
     .footer-distributed form button {
         float: none;
     }
+}
+
+.contact_button{
+    border: goldenrod; border-style: outset;
+    background-color:rgb(90, 5, 5);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-width: 2;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.contact_button:hover{
+    background-color: black;
 }
 
 
