@@ -397,15 +397,18 @@ section {
 }
 
 .contact_button{
-    border: goldenrod; border-style: outset;
-    background-color:rgb(90, 5, 5);
+    border: white; border-style: outset;
+    background-color: rgb(37, 17, 94);
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    border-width: 2;
-    border-radius: 10px;
+    border-width: 3px;
+    border-radius: 30px;
     font-size: 24px;
+    position: relative;
+    bottom: 7px;
 }
+
 
 .contact_button:hover{
     background-color: black;

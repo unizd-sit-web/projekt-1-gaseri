@@ -125,8 +125,8 @@ ul{
     height: 100%;
 }
 .contact_button{
-    border: goldenrod; border-style: outset;
-    background-color:rgb(90, 5, 5);
+    border: white; border-style: outset;
+    background-color: rgb(37, 17, 94);
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
