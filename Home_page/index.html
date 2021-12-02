@@ -16,60 +16,101 @@
     <title>Alcatraz Night Club</title>
 </head>
 
-
-<body class=bg background="bg.jpg">
+<!-- Background which is formatted by a css class called bg -->
+<body class=bg>
 <header class="header">
+    <!-- Logo picture sends the user to main page -->
     <h1 class="logo"><a href="index.html"><img src="LogoMakr (1).png"></a></h1>
+    <!-- Navbar: only gallery works for now, rest is to be implemented in future project -->
     <ul class="main-nav">
-        <li class="nav_txt"><a href="#kontakt"><button class="contact_button">KONTAKT</button></a></li>
+        <!-- Contact button sends the user to the contact us form -->
+        <li class="nav_txt"><a href="#kontakt">
+            <button class="contact_button">KONTAKT</button>
+        </a></li>
         <li class="nav_txt"><a href="#">O NAMA</a></li>
+        <!-- Gallery button sends the user to the page with the latest gallery -->
         <li class="nav_txt"><a href="../Gallery_page/gallery.html">GALERIJA</a></li>
         <li class="nav_txt"><a href="#">REZERVACIJA</a></li>
         <li class="nav_txt"><a href="#">KUPI ULAZNICU</a></li>
         <li class="nav_txt"><a href="#">KALENDAR</a></li>
     </ul>
 </header>
+
 <br>
 
+<!-- First text area on the site with basic info,
+source: foundation framework -->
 <div class="marketing-site-content-section">
+
+    <!-- Picture on the side -->
     <div class="marketing-site-content-section-img">
         <img src="./Photo/Crowd.JPG"
              alt=""/>
     </div>
+
+    <!-- Text box which statnds by the picture with some info
+     source: foundation framework-->
     <div class="marketing-site-content-section-block">
-        <h3 class="marketing-site-content-section-block-header">Od otvaranja uzastopno nagrađivan u kategoriji top 10 najboljih velikih klubova u Europi!</h3>
+        <h3 class="marketing-site-content-section-block-header">Od otvaranja uzastopno nagrađivan u kategoriji top 10
+            najboljih velikih klubova u Europi!</h3>
+
         <br>
+
+        <!-- Button which is going to be imported in the future project - used for buying tickets -->
         <a href="#" class="round button small">KUPI ULAZNICU</a>
     </div>
+
+    <!-- Another textarea with a side picture
+     source: foundation framework-->
     <div class="marketing-site-content-section-block small-order-2 medium-order-1">
-        <h3 class="marketing-site-content-section-block-header">Rezerviraj svoje mjesto na izlascima za pamćenje! Biraj između čak 30 visokih stolova, 16 VIP separea, i 8 VIP PREMIUM...</h3>
+        <h3 class="marketing-site-content-section-block-header">Rezerviraj svoje mjesto na izlascima za pamćenje! Biraj
+            između čak 30 visokih stolova, 16 VIP separea, i 8 VIP PREMIUM...</h3>
+
         <br>
+
+        <!-- Button for another function of the site which is going to be implemented later used to reserve your table for a specific date -->
         <a href="#" class="round button small">REZERVACIJA</a>
     </div>
+
+    <!-- Picture on the side -->
     <div class="marketing-site-content-section-img small-order-1 medium-order-2">
         <img src="./Photo/Gold.jpg" alt=""/>
     </div>
 </div>
 
-<br><br>
-<hr>
+<br><br><br>
+
+<!-- Left side of the footer on the main page -->
 <footer id="kontakt" class="footer-distributed">
-
     <div class="footer-left">
-
+        <!-- Logo image -->
         <h3><img src="LogoMakr (1).png"></h3>
+
         <br>
+
+        <!-- Basic contact info list: -->
         <ul style="color: white; font-size: 1.1em;">
+            <!-- Address -->
             <li>Address: Zadarska 1, 23000 Zadar</li>
+
             <br>
+
+            <!-- Telephone number -->
             <li>Tel: 023/321-123</li>
+
             <br>
+
+            <!-- Staff mail for help -->
             <li>Staff Mail: staff@alcatrazofzadar.com</li>
+
             <br>
+
+            <!-- Reservations mail -->
             <li>Reservations: reservations@alcatrazofzadar.com</li>
         </ul>
 
-
+        <!-- Social media icons with links to profiles (there is no profile for our imaginary club project so it leads
+        to the main page of each social media presented) -->
         <div class="footer-icons">
             <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
             <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
@@ -77,23 +118,18 @@
 
     </div>
 
+    <!-- Right side of the footer on the main page -->
     <div class="footer-right">
-
         <p style="font-size: 2em;font-weight: bold;">Kontaktiraj nas:</p>
-
+        <!-- Contact us form -->
         <form action="#" method="post">
-
             <input type="text" name="email" placeholder="E-mail">
             <textarea name="message" placeholder="Message"></textarea>
             <button>Pošalji</button>
-
         </form>
-
     </div>
-
 </footer>
 
 </body>
-
 
 </html>
