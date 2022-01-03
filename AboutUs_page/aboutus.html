@@ -18,13 +18,25 @@
 
 <!-- Background processed by css class bg -->
 <body class=bg>
+
+<!-- Preloader - dodati nanadno
+<div class="preloader-wrap">
+    <div class="preloader-inside">
+        <div class="spinner spinner-1">
+            <img src="assets/img/portal/logo.png" alt="">
+        </div>
+    </div>
+</div> -->
+
 <header class="header">
     <!-- Logo is a button which sends the user to the main page -->
     <h1 class="logo"><a href="../Home_page/index.html"><img src="../Home_page/LogoMakr (1).png"></a></h1>
     <!-- Navbar: -->
     <ul class="main-nav">
         <!-- Contact button -->
-        <li class="nav_txt"><a href="#kontakt"><button class="contact_button">KONTAKT</button></a></li>
+        <li class="nav_txt"><a href="#kontakt">
+            <button class="contact_button">KONTAKT</button>
+        </a></li>
         <!-- -to be implemented -->
         <li class="nav_txt" style="text-decoration: underline;"><a href="#">O NAMA</a></li>
         <li class="nav_txt"><a href="../Gallery_page/gallery.html">GALERIJA</a></li>
@@ -34,9 +46,20 @@
     </ul>
 </header>
 
+
 <!-- Temporary breaks -->
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br>
+
+<div class="divclass">
+    <div>
+    <p class="item-1">Višestruko nominiran za najbolji veliki klub u Europi.</p>
+    <p class="item-2">Jedan od najmodernijih sustava ozvučenja i rasvjete!</p>
+    <p class="item-3">Brojni koncerti... Eventovi... Privatne zabave...</p>
+    </div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 
 <footer id="kontakt" class="footer-distributed">
     <div class="footer-left">
@@ -77,20 +100,23 @@
 
     <!-- Right side of the footer on the main page -->
     <div class="footer-right">
-        <p style="font-size: 1.5em;font-weight: bold;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">Kontaktiraj nas:</p>
+        <p style="font-size: 1.5em;font-weight: bold;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
+            Kontaktiraj nas:</p>
         <!-- Contact us form -->
         <form action="#" method="post">
             <input type="text" name="email" placeholder="E-mail">
             <textarea name="message" placeholder="Message"></textarea>
-            <button style="font-weight: bold ;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">Pošalji</button>
+            <button style="font-weight: bold ;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
+                Pošalji
+            </button>
         </form>
     </div>
 </footer>
 
 <script type="text/javascript">
-    window.addEventListener("scroll",function(){
-        var header=document.querySelector("header");
-        header.classList.toggle("shrink",window.scrollY>0);
+    window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("shrink", window.scrollY > 0);
     })
 </script>
 </body>
