@@ -406,12 +406,22 @@ body {
     animation-name: anim-1;
 }
 
+.item-1 .hide{
+    display: none;
+}
+
 .item-2{
     animation-name: anim-2;
+}
+.item-2 .hide{
+    display: none;
 }
 
 .item-3{
     animation-name: anim-3;
+}
+.item-3 .hide{
+    display: none;
 }
 
 @keyframes anim-1 {
@@ -431,3 +441,13 @@ body {
     74.96%, 91.62% { left: 25%; opacity: 1; }
     100% { left: 110%; opacity: 0; }
 }
+
+.aboutuscontainer{
+    border:white;
+    border-style: solid;
+    background-color: rgba(0, 0, 0,0.9);
+    color: white;
+}
+
+  
+  
