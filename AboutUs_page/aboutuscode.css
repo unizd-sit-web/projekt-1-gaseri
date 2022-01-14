@@ -407,21 +407,21 @@ body {
 }
 
 .item-1 .hide{
-    display: none;
+    color:black
 }
 
 .item-2{
     animation-name: anim-2;
 }
 .item-2 .hide{
-    display: none;
+    color: black;
 }
 
 .item-3{
     animation-name: anim-3;
 }
 .item-3 .hide{
-    display: none;
+    color: black;
 }
 
 @keyframes anim-1 {
